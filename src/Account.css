@@ -1,0 +1,212 @@
+/* Account Container */
+.account-container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin-top: 3rem;
+  }
+  
+  /* Account Title */
+  .account-title {
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 24px;
+  }
+  
+  /* Account Description */
+  .account-description {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  /* Account Section Title */
+  .account-section-title {
+    font-size: 20px;
+    margin-bottom: 10px;
+    margin-top: 20px;
+  }
+  
+  /* Account List */
+  .account-list {
+    list-style-type: none;
+    padding: 0;
+    text-align: left;
+  }
+  
+  /* Account Item */
+  .account-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 8px 0;
+    border-bottom: 1px solid #ccc;
+  }
+  
+  /* Delete Button */
+  .delete-button {
+    background-color: #ff6b6b;
+    border: none;
+    border-radius: 4px;
+    color: #fff;
+    font-size: 14px;
+    padding: 6px 12px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .delete-button:hover {
+    background-color: #f33;
+  }
+  
+  /* Account Create */
+  .account-create {
+    display: flex;
+    align-items: center;
+  }
+  
+  /* Account Input */
+  .account-input {
+    flex: 1;
+    margin-right: 10px;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+  }
+  
+  /* Create Button */
+  .create-button {
+    background-color: #007bff;
+    border: none;
+    border-radius: 4px;
+    color: #fff;
+    font-size: 16px;
+    padding: 8px 16px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .create-button:hover {
+    background-color: #0056b3;
+  }
+  
+  /* Alert Message */
+  .alert-message {
+    color: red;
+    margin-top: 10px;
+    text-align: center;
+  }
+  
+  /* Account Transaction */
+  .account-transaction {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+  }
+  
+  /* Transaction Input */
+  .transaction-input {
+    flex: 1;
+    margin-right: 10px;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+  }
+  
+  /* Transaction Button */
+  .transaction-button {
+    background-color: #28a745;
+    border: none;
+    border-radius: 4px;
+    color: #fff;
+    font-size: 16px;
+    /* padding: 8px 20px; */
+    cursor: pointer;
+    transition: background-color 0.3s;
+    margin-left: 18rem;
+    margin-top: 1rem;
+  }
+  
+  .transaction-button:hover {
+    background-color: #1e7e34;
+  }
+  
+  /* Transaction History Table */
+  .account-transaction-history {
+    width: 100%;
+    margin-top: 20px;
+    border-collapse: collapse;
+  }
+  
+  /* Transaction History Table Header */
+  .account-transaction-history th {
+    background-color: #f2f2f2;
+    text-align: left;
+    padding: 10px;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  /* Transaction History Table Row */
+  .transaction-item {
+    background-color: #fff;
+  }
+  
+  /* Transaction History Table Data */
+  .account-transaction-history td {
+    padding: 10px;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  /* Categories Container */
+  .categories-container {
+    margin-top: 20px;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Categories Title */
+  .categories-title {
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 24px;
+  }
+  
+  /* Categories List */
+  .categories-list {
+    list-style-type: none;
+    padding: 0;
+    text-align: left;
+  }
+  
+  /* Categories Item */
+  .categories-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 8px 0;
+    border-bottom: 1px solid #ccc;
+  }
+  
+  /* Categories Button */
+  .categories-button {
+    background-color: #007bff;
+    border: none;
+    border-radius: 4px;
+    color: #fff;
+    font-size: 14px;
+    padding: 6px 12px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .categories-button:hover {
+    background-color: #0056b3;
+  }
+  
